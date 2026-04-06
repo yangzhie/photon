@@ -1,0 +1,4 @@
+node_modules
+bin
+neutralinojs.log
+.tmp
