@@ -6,7 +6,8 @@ function Sidebar() {
         <>
             <div className="w-1/3 h-full">
                 <SidebarHeader />
-                <SidebarLibrary />
+                <SidebarLibrary componentTitle="Library" />
+                <SidebarLibrary componentTitle="Tools" />
             </div>
         </>
     );
