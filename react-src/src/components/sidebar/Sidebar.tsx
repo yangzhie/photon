@@ -1,5 +1,6 @@
 import SidebarHeader from "./SidebarHeader.tsx";
 import SidebarLibrary from "./SidebarLibrary.tsx";
+import SidebarFolderSelect from "./SidebarFolderSelect.tsx";
 
 function Sidebar() {
     return (
@@ -8,6 +9,7 @@ function Sidebar() {
                 <SidebarHeader />
                 <SidebarLibrary componentTitle="Library" />
                 <SidebarLibrary componentTitle="Tools" />
+                <SidebarFolderSelect />
             </div>
         </>
     );
